@@ -108,7 +108,7 @@ public class Main {
         boolean coincide=false;
         int contador=0;
         //Patron
-        String regex = "[a-zA-Z]{1}\\d{1}";
+        String regex = "[a-zA-Z]{1}\\d{1}+";
       
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(linea);
